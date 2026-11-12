@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Clube de Física de Sobral | IFCE Campus Sobral</title>
+<meta name="description" content="Página do Clube de Física de Sobral (CFS), vinculado ao Curso de Licenciatura em Física do IFCE Campus Sobral.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F5F7FB;--card:#fff;--tx:#0F1B33;--mut:#55627D;--bd:#DEE4EF;--ac:#2F5BFF;--ac2:#00A88F;--hero:#0B1530;--onhero:#E8EDFB;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0A1022;--card:#121B33;--tx:#E8EDFB;--mut:#9AA7C4;--bd:#243050;--ac:#7C9BFF;--ac2:#2DD4BF;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0A1022;--card:#121B33;--tx:#E8EDFB;--mut:#9AA7C4;--bd:#243050;--ac:#7C9BFF;--ac2:#2DD4BF;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3{font-family:"Space Grotesk",Inter,system-ui,sans-serif;line-height:1.15;margin:0}
+a{color:inherit}button{font:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--ac2);outline-offset:3px}
+.c{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--hero);color:var(--onhero)}
+header .c{display:flex;align-items:center;gap:16px;height:60px}
+.brand{font-family:"Space Grotesk",sans-serif;font-weight:700;margin-right:auto;text-decoration:none}.brand span{color:#2DD4BF}
+nav{display:flex;gap:4px}nav a{text-decoration:none;color:#B9C4E4;padding:7px 12px;border-radius:8px;font-size:.92rem;transition:.2s}nav a:hover{color:#fff;background:#18274d}
+.tg{background:#18274d;color:#fff;border:0;border-radius:999px;width:38px;height:38px;font-size:1.05rem}
+.hero{background:var(--hero);color:var(--onhero);position:relative;overflow:hidden}
+.hero .c{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center;padding:70px 20px 80px}
+.tag{display:inline-block;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#2DD4BF;font-weight:600;margin-bottom:12px}
+.hero h1{font-size:clamp(2.2rem,6vw,3.6rem);letter-spacing:-.03em;margin-bottom:16px}
+.hero p{color:#B9C4E4;max-width:560px;margin:0 0 12px}
+.orb{width:100%;max-width:320px;margin:auto;display:block}
+.orb .r{transform-origin:160px 160px;animation:spin 18s linear infinite}.orb .r2{animation-duration:30s;animation-direction:reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.sec{padding:56px 0}.sec h2{font-size:1.7rem;letter-spacing:-.02em;margin-bottom:6px}.sub{color:var(--mut);margin:0 0 24px}
+.quick{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:-34px;position:relative}
+.q{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px;text-decoration:none;display:flex;flex-direction:column;gap:6px;transition:.2s;box-shadow:0 8px 24px rgba(11,21,48,.12)}
+.q:hover{transform:translateY(-3px);border-color:var(--ac)}.q b{font-size:1.5rem}.q span{font-weight:600}
+.goals{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.goal{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:22px;display:flex;gap:14px;align-items:flex-start}.goal b{font-size:1.5rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:12px;justify-content:space-between}
+.card h3{font-size:1.1rem}
+.pill{display:inline-block;font-size:.85rem;font-weight:600;padding:6px 12px;border-radius:999px;border:1px solid var(--bd);color:var(--mut);align-self:flex-start}
+a.pill{color:var(--ac);border-color:var(--ac);text-decoration:none;transition:.2s}a.pill:hover{background:var(--ac);color:var(--bg)}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+footer{background:var(--hero);color:#B9C4E4;padding:34px 0;text-align:center;font-size:.92rem}footer p{margin:2px 0}
+@media (max-width:760px){.hero .c{grid-template-columns:1fr;padding:44px 20px 64px}.orb{max-width:200px}nav a:not(.keep){display:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><div class="c">
+  <a class="brand" href="#topo">Clube de <span>Física</span></a>
+  <nav aria-label="Principal"><a href="#objetivos">Objetivos</a><a href="#nucleos">Núcleos</a><a href="#trabalhos">Trabalhos</a><a class="keep" href="#links">Links</a></nav>
+  <button class="tg" id="tema" aria-label="Alternar modo claro e noturno"></button>
+</div></header>
+<main id="topo">
+<section class="hero"><div class="c">
+  <div>
+    <span class="tag">IFCE Campus Sobral</span>
+    <h1>Clube de Física</h1>
+    <p>Esta é a página web do Clube de Física de Sobral (CFS), vinculado ao Curso de Licenciatura em Física do IFCE Campus Sobral.</p>
+    <p>Este ambiente tem a funcionalidade de repositório. Tem como missão armazenar, preservar, divulgar e oferecer acesso a produção científica do Grupo de Estudo.</p>
+  </div>
+  <svg class="orb" viewBox="0 0 320 320" role="img" aria-label="Ilustração de um átomo com órbitas">
+    <circle cx="160" cy="160" r="14" fill="#2DD4BF"/>
+    <g class="r"><ellipse cx="160" cy="160" rx="140" ry="52" fill="none" stroke="#7C9BFF" stroke-width="1.5" opacity=".7"/><circle cx="300" cy="160" r="8" fill="#7C9BFF"/></g>
+    <g class="r r2" transform="rotate(60 160 160)"><ellipse cx="160" cy="160" rx="140" ry="52" fill="none" stroke="#2DD4BF" stroke-width="1.5" opacity=".7"/><circle cx="20" cy="160" r="8" fill="#2DD4BF"/></g>
+    <g class="r" transform="rotate(120 160 160)"><ellipse cx="160" cy="160" rx="140" ry="52" fill="none" stroke="#7C9BFF" stroke-width="1.5" opacity=".5"/><circle cx="160" cy="108" r="7" fill="#7C9BFF"/></g>
+  </svg>
+</div></section>
+
+<div class="c"><div class="quick">
+  <a class="q" href="https://ifce.codeberg.page/ClubeFisica/sobre.html" target="_blank" rel="noopener"><b>🔰</b><span>Sobre o Clube</span></a>
+  <a class="q" href="https://ifce.codeberg.page/ClubeFisica/blog/index.html" target="_blank" rel="noopener"><b>📗</b><span>Blog</span></a>
+  <a class="q" href="https://pt.wikiversity.org/wiki/Sobral_clube_fisica" target="_blank" rel="noopener"><b>🔗</b><span>Wikiversity</span></a>
+  <a class="q" href="https://ifce.codeberg.page/ClubeFisica/blog/2025_10_15_forum.html" target="_blank" rel="noopener"><b>📣</b><span>Grupo</span></a>
+  <a class="q" href="https://codeberg.org/IFCE/ClubeFisica/commits/branch/pages" target="_blank" rel="noopener"><b>🔄</b><span>Atualizações</span></a>
+  <a class="q" href="https://ifce.codeberg.page/ClubeFisica/contato.html" target="_blank" rel="noopener"><b>📧</b><span>Contato</span></a>
+</div></div>
+
+<section class="sec" id="objetivos"><div class="c">
+  <h2>Objetivos do Clube</h2><p class="sub">O que o grupo se propõe a fazer.</p>
+  <div class="goals">
+    <div class="goal"><b>🎯</b><p>Elaborar e executar projetos básicos relacionados à Física;</p></div>
+    <div class="goal"><b>🎯</b><p>Pesquisar artigos científicos para fundamentar os projetos;</p></div>
+    <div class="goal"><b>🎯</b><p>Apresentar trabalhos em eventos científicos;</p></div>
+  </div>
+</div></section>
+
+<section class="sec" id="nucleos"><div class="c">
+  <h2>Núcleos de Trabalho</h2><p class="sub">Frentes de estudo e prática do clube.</p>
+  <div class="cards">
+    <div class="card"><h3>Física Computacional</h3><a class="pill" href="https://ifce.codeberg.page/NucleoFC" target="_blank" rel="noopener">🔗 Site</a></div>
+    <div class="card"><h3>Astronomia</h3><span class="pill">Em breve</span></div>
+    <div class="card"><h3>Letramento Científico</h3><a class="pill" href="https://www.instagram.com/p/DPor_Ghkc0Z" target="_blank" rel="noopener">🔗 Insta Post</a></div>
+    <div class="card"><h3>Construção de Foguetes</h3><a class="pill" href="https://pt.wikiversity.org/wiki/Sobral_clube_fisica/N%C3%BAcleo_estudos_pr%C3%A1ticas_aeroespaciais" target="_blank" rel="noopener">🔗 Site</a></div>
+    <div class="card"><h3>Educação em Física</h3><span class="pill">Em breve</span></div>
+    <div class="card"><h3>Robótica</h3><span class="pill">Em breve</span></div>
+  </div>
+</div></section>
+
+<section class="sec" id="trabalhos"><div class="c">
+  <h2>Trabalhos desenvolvidos</h2><p class="sub">Produção científica do grupo.</p>
+  <div class="cards">
+    <div class="card"><h3>📝 Trabalho 1</h3><span class="pill">Em breve</span></div>
+    <div class="card"><h3>📝 Trabalho 2</h3><span class="pill">Em breve</span></div>
+  </div>
+</div></section>
+
+<section class="sec" id="links"><div class="c">
+  <h2>Links importantes</h2><p class="sub">Para saber mais sobre o curso e os programas relacionados.</p>
+  <div class="links">
+    <div class="card"><h3>🔗 Curso de Física</h3><div class="row"><a class="pill" href="https://portal.ifce.edu.br/cursos/fisica/" target="_blank" rel="noopener">Site</a><a class="pill" href="https://www.instagram.com/fisicaifcesobral" target="_blank" rel="noopener">Instagram</a></div></div>
+    <div class="card"><h3>🔗 Programa PET</h3><div class="row"><a class="pill" href="https://petifcesobral.github.io/" target="_blank" rel="noopener">Site</a><a class="pill" href="https://www.instagram.com/petfisicaifce" target="_blank" rel="noopener">Instagram</a></div></div>
+    <div class="card"><h3>🔗 Fotos</h3><span class="pill">Em breve</span></div>
+  </div>
+</div></section>
+</main>
+<footer><div class="c"><p><em>Clube de Física / 2025-2026</em></p><p><em>Instituto Federal do Ceará, Campus Sobral</em></p></div></footer>
+<script>
+const IC={dark:"☀️",light:"🌙"};
+function setTema(t){document.documentElement.dataset.theme=t;const b=document.getElementById("tema");b.textContent=IC[t];b.title=t==="dark"?"Mudar para modo claro":"Mudar para modo noturno";try{localStorage.setItem("tema",t)}catch(e){}}
+let t0=null;try{t0=localStorage.getItem("tema")}catch(e){}
+setTema(t0||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"));
+document.getElementById("tema").onclick=()=>setTema(document.documentElement.dataset.theme==="dark"?"light":"dark");
+</script>
+</body>
+</html>
